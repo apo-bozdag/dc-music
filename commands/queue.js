@@ -41,7 +41,7 @@ module.exports = {
           if (currentPage < embeds.length - 1) {
             currentPage++;
             queueEmbed.edit(
-              i18n.__mf("queue.currentPage", { page: currentPage + 1, length: embeds.length }),
+              `**${i18n.__mf("queue.currentPage")} ${currentPage + 1}/${embeds.length}**`,
               embeds[currentPage]
             );
           }
@@ -49,7 +49,7 @@ module.exports = {
           if (currentPage !== 0) {
             --currentPage;
             queueEmbed.edit(
-              i18n.__mf("queue.currentPage", { page: currentPage + 1, length: embeds.length }),
+              `**${i18n.__mf("queue.currentPage")} ${currentPage + 1}/${embeds.length}**`,
               embeds[currentPage]
             );
           }
