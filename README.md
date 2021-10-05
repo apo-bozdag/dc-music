@@ -35,6 +35,8 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
   "TOKEN": "",
   "YOUTUBE_API_KEY": "",
   "SOUNDCLOUD_CLIENT_ID": "",
+  "SPOTIFY_CLIENT_ID": "",
+  "SPOTIFY_SECRET_ID": "",
   "MAX_PLAYLIST_SIZE": 10,
   "PREFIX": "/",
   "PRUNING": false,
