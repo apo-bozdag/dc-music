@@ -16,8 +16,8 @@
 ## 🚀 Getting Started
 
 ```sh
-git clone https://github.com/eritislami/evobot.git
-cd evobot
+git clone https://github.com/apo-bozdag/dc-music.git
+cd dc-music
 npm install
 ```
 
@@ -137,14 +137,10 @@ Currently available locales are:
 
 ## 🤝 Contributing
 
-1. [Fork the repository](https://github.com/eritislami/evobot/fork)
-2. Clone your fork: `git clone https://github.com/your-username/evobot.git`
+1. [Fork the repository](https://github.com/apo-bozdag/dc-music/fork)
+2. Clone your fork: `https://github.com/apo-bozdag/dc-music.git`
 3. Create your feature branch: `git checkout -b my-new-feature`
 4. Stage changes `git add .`
 5. Commit your changes: `cz` OR `npm run commit` do not use `git commit`
 6. Push to the branch: `git push origin my-new-feature`
 7. Submit a pull request
-
-## 📝 Credits
-
-[@iCrawl](https://github.com/iCrawl) For the queue system used in this application which was adapted from [@iCrawl/discord-music-bot](https://github.com/iCrawl/discord-music-bot)
