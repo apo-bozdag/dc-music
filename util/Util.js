@@ -14,8 +14,8 @@ exports.SOUNDCLOUD_CLIENT_ID = config ? config.SOUNDCLOUD_CLIENT_ID : process.en
 exports.SPOTIFY_CLIENT_ID = config ? config.SPOTIFY_CLIENT_ID : process.env.SPOTIFY_CLIENT_ID;
 exports.SPOTIFY_SECRET_ID = config ? config.SPOTIFY_SECRET_ID : process.env.SPOTIFY_SECRET_ID;
 exports.PREFIX = (config ? config.PREFIX : process.env.PREFIX) || "/";
-exports.MAX_PLAYLIST_SIZE = (config ? config.MAX_PLAYLIST_SIZE : process.env.MAX_PLAYLIST_SIZE) || 10;
-exports.PRUNING = (config ? config.PRUNING : process.env.PRUNING) || false;
-exports.STAY_TIME = (config ? config.STAY_TIME : process.env.STAY_TIME) || 30;
-exports.DEFAULT_VOLUME = (config ? config.DEFAULT_VOLUME : process.env.DEFAULT_VOLUME) || 100;
+exports.MAX_PLAYLIST_SIZE = (config ? config.MAX_PLAYLIST_SIZE : parseInt(process.env.MAX_PLAYLIST_SIZE)) || 10;
+exports.PRUNING = (config ? config.PRUNING : (process.env.PRUNING === 'true'));
+exports.STAY_TIME = (config ? config.STAY_TIME : parseInt(process.env.STAY_TIME)) || 30;
+exports.DEFAULT_VOLUME = (config ? config.DEFAULT_VOLUME : parseInt(process.env.DEFAULT_VOLUME)) || 100;
 exports.LOCALE = (config ? config.LOCALE : process.env.LOCALE) || "en";
