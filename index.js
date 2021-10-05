@@ -1,7 +1,7 @@
 /**
  * Module Imports
  */
-const { Client, Collection } = require("discord.js");
+const { Client, Intents, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
 const { TOKEN, PREFIX } = require("./util/Util");
@@ -9,7 +9,8 @@ const i18n = require("./util/i18n");
 
 const client = new Client({
   disableMentions: "everyone",
-  restTimeOffset: 0
+  restTimeOffset: 0,
+  intents: [Intents.FLAGS.GUILDS]
 });
 
 client.login(TOKEN);
