@@ -21,7 +21,7 @@
     "node-spotify-api": "^1.1.1",
     "simple-youtube-api": "^5.1.1",
     "soundcloud-downloader": "^0.2.3",
-    "spotify-uri": "^2.2.0",
+    "spotify-uri": "^3.0.3",
     "spotify-url-info": "^2.2.3",
     "string-progressbar": "^1.0.4",
     "ytdl-core": "^4.9.2",
